@@ -80,7 +80,7 @@ class TestAspect{
 
     @PointCutting(classArr = {EmployeeServiceImpl2.class, EmployeeServiceImpl3.class})
     @After
-    public void beforePointCutting3(){
+    public void afterPointCutting3(){
         System.out.println("this is EmployeeServiceImpl2 and EmployeeServiceImpl3 After_PointCutting test");
     }
 
