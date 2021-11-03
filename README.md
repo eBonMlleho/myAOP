@@ -7,7 +7,7 @@ implemented: \
 
 Test:\
   run main() in AOPExample and change the proxy parameters accordingly:  \
-  JdkAOPInvocationHandler(new ClassName(), new TestAspect())\
+  JdkAOPInvocationHandler(new ClassName(), new TestAspect())
 
   PointCutting: \
     afterPointCutting3() allows EmployeeServiceImpl2.class, EmployeeServiceImpl3.class;\
