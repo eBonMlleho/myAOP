@@ -12,6 +12,7 @@ Test:\
   PointCutting: \
     afterPointCutting3() allows EmployeeServiceImpl2.class, EmployeeServiceImpl3.class;\
     beforePointCutting2() allows EmployeeServiceImpl2.class;\
-    beforePointCutting1() allows EmployeeServiceImpl1.class;
+    beforePointCutting1() allows EmployeeServiceImpl1.class; \
     
-    JdkAOPInvocationHandler(new new EmployeeServiceImpl2(), new TestAspect()) --> beforePointCutting2() and afterPointCutting3() will be execcuted.\
+    JdkAOPInvocationHandler(new new EmployeeServiceImpl2(), new TestAspect()) \ 
+    beforePointCutting2() and afterPointCutting3() will be execcuted.\
