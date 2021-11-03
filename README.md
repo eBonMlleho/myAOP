@@ -1,7 +1,7 @@
 # myAOP
 
 implemented:
-  @PointCut(EmployeeService.class),
+  @PointCut(EmployeeService.class), \
   @AfterReturn(triggered when we get result)
   @AfterThrow(triggered when we get exception)
 
